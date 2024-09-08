@@ -1,0 +1,273 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\corebackend\\corebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\corebackend\\corebackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\corebackend\\corebackend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\corebackend\\corebackend\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\corebackend\\corebackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\corebackend\\corebackend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\corebackend\\corebackend\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Migrations\\20240908120620_intialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CoreBackend\\Migrations\\20240908120620_intialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\corebackend\\corebackend\\corebackend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\corebackend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\corebackend\\corebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44823CAC-A6D8-484F-A8F1-41103E7E0EAC}|jwtGenerator\\jwtGenerator.csproj|c:\\users\\hasse\\onedrive\\desktop\\corebackend\\jwtgenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44823CAC-A6D8-484F-A8F1-41103E7E0EAC}|jwtGenerator\\jwtGenerator.csproj|solutionrelative:jwtgenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\corebackend\\corebackend\\corebackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\corebackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Migrations\\20240908111614_intialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CoreBackend\\Migrations\\20240908111614_intialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\corebackend\\corebackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\corebackend\\corebackend\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\DataBase\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CoreBackend\\DataBase\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\DataBase\\AppDbContext.cs",
+              "RelativeToolTip": "CoreBackend\\DataBase\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T12:09:44.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CoreBackend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CoreBackend\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-08T10:43:57.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CoreBackend\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CoreBackend\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwFYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T10:36:44.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Program.cs",
+              "RelativeDocumentMoniker": "CoreBackend\\Program.cs",
+              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Program.cs",
+              "RelativeToolTip": "CoreBackend\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwDUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T10:26:51.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "CoreBackend\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Models\\LoginModel.cs",
+              "RelativeToolTip": "CoreBackend\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T11:11:36.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "CoreBackend\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Services\\UserService.cs",
+              "RelativeToolTip": "CoreBackend\\Services\\UserService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAD4vyMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T10:30:43.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CoreBackend\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Models\\User.cs",
+              "RelativeToolTip": "CoreBackend\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T10:28:57.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "CoreBackend\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "CoreBackend\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T11:31:30.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "CoreBackend\\appsettings.json",
+              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\appsettings.json",
+              "RelativeToolTip": "CoreBackend\\appsettings.json",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-08T10:44:07.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240908120620_intialmigration.cs",
+              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Migrations\\20240908120620_intialmigration.cs",
+              "RelativeDocumentMoniker": "CoreBackend\\Migrations\\20240908120620_intialmigration.cs",
+              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Migrations\\20240908120620_intialmigration.cs",
+              "RelativeToolTip": "CoreBackend\\Migrations\\20240908120620_intialmigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T12:06:20.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CoreBackend.csproj",
+              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\CoreBackend.csproj",
+              "RelativeDocumentMoniker": "CoreBackend\\CoreBackend.csproj",
+              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\CoreBackend.csproj",
+              "RelativeToolTip": "CoreBackend\\CoreBackend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-08T10:28:34.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CoreBackend.http",
+              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\CoreBackend.http",
+              "RelativeDocumentMoniker": "CoreBackend\\CoreBackend.http",
+              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\CoreBackend.http",
+              "RelativeToolTip": "CoreBackend\\CoreBackend.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-08T12:01:43.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\jwtGenerator\\Program.cs",
+              "RelativeDocumentMoniker": "jwtGenerator\\Program.cs",
+              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\jwtGenerator\\Program.cs",
+              "RelativeToolTip": "jwtGenerator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T11:37:47.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240908111614_intialmigration.cs",
+              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Migrations\\20240908111614_intialmigration.cs",
+              "RelativeDocumentMoniker": "CoreBackend\\Migrations\\20240908111614_intialmigration.cs",
+              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Migrations\\20240908111614_intialmigration.cs",
+              "RelativeToolTip": "CoreBackend\\Migrations\\20240908111614_intialmigration.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAyPQAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T11:16:14.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "CoreBackend\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\WeatherForecast.cs",
+              "RelativeToolTip": "CoreBackend\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T10:26:47.936Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

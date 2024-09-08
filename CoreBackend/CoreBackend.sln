@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreBackend", "CoreBackend\CoreBackend.csproj", "{77A17437-DECA-4A06-8872-5D63A2B2C727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jwtGenerator", "jwtGenerator\jwtGenerator.csproj", "{44823CAC-A6D8-484F-A8F1-41103E7E0EAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77A17437-DECA-4A06-8872-5D63A2B2C727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A17437-DECA-4A06-8872-5D63A2B2C727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A17437-DECA-4A06-8872-5D63A2B2C727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A17437-DECA-4A06-8872-5D63A2B2C727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44823CAC-A6D8-484F-A8F1-41103E7E0EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44823CAC-A6D8-484F-A8F1-41103E7E0EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44823CAC-A6D8-484F-A8F1-41103E7E0EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44823CAC-A6D8-484F-A8F1-41103E7E0EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89B81CBF-4EC6-4EF2-9921-13F4DFAB8B87}
+	EndGlobalSection
+EndGlobal
