@@ -17,6 +17,21 @@ var audience = builder.Configuration["Jwt:Audience"];
 
 // Add services to the container.
 
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins", builder =>
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader());
+});
+
+// Other services (like MVC or Controllers)
+builder.Services.AddControllers();
+
+
+
+
 builder.Services.AddControllers();
 builder.Services.AddScoped<IUserService, UserService>();
 
@@ -83,6 +98,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("AllowAllOrigins");
 
 app.UseHttpsRedirection();
 

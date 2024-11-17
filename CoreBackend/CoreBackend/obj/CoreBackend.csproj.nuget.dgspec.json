@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\CoreBackend.csproj": {}
+    "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\CoreBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\CoreBackend.csproj": {
+    "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\CoreBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\CoreBackend.csproj",
+        "projectUniqueName": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\CoreBackend.csproj",
         "projectName": "CoreBackend",
-        "projectPath": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\CoreBackend.csproj",
+        "projectPath": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\CoreBackend.csproj",
         "packagesPath": "C:\\Users\\hasse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\obj\\",
+        "outputPath": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hasse\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,6 +63,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.21.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

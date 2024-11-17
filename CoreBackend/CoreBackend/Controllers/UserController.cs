@@ -2,6 +2,7 @@
 using CoreBackend.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -27,9 +28,10 @@ namespace CoreBackend.Controllers
       
 
         [HttpGet]
-        public IActionResult GetSecureData()
+        public List<User> GetUsersData()
         {
-            return Ok("This is a secure data.");
+            return _userService.GetUsers(); 
+            
         }
 
         [HttpPost("signup")]
@@ -87,6 +89,20 @@ namespace CoreBackend.Controllers
         }
 
 
+        [HttpPut("Update")]
+        public IActionResult Update([FromBody] User userInput)
+        {
+            if (userInput == null)
+                return BadRequest("User doesn't exist");
+
+            return Ok(_userService.ModifyUser(userInput));
+        }
+
+        [HttpDelete("Delete")]
+        public IActionResult Delete(int id)
+        {
+            return Ok(_userService.DeleteUser(id));
+        }
     }
 }
 

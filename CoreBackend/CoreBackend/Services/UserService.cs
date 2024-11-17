@@ -1,6 +1,7 @@
 ﻿using CoreBackend.DataBase;
 using CoreBackend.Models;
 using Microsoft.IdentityModel.Tokens;
+using System.Globalization;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -9,8 +10,11 @@ namespace CoreBackend.Services
 {
     public interface IUserService
     {
+        List<User> GetUsers();
         string Authenticate(string email, string password);
         User RegisterUser(User newUser);
+        User ModifyUser (User user);
+        string DeleteUser(int id);
     }
     public class UserService : IUserService
     {
@@ -26,6 +30,16 @@ namespace CoreBackend.Services
 
 
 
+
+        public List<User> GetUsers()
+        {
+            var users = _context.Users.ToList();
+            if (users.Count > 0 )
+            {
+                return users; 
+            }
+            return null; 
+        }
 
         public string Authenticate(string email, string password)
         {
@@ -66,6 +80,35 @@ namespace CoreBackend.Services
             _context.SaveChanges();
             return user;
          
+        }
+
+        public User ModifyUser(User user )
+        {
+            User user1 = _context.Users.FirstOrDefault(x => x.Id == user.Id);
+            {
+                user1.Name = user.Name;
+                user1.Email = user.Email;
+                user1.Password = user.Password;
+            }
+
+            _context.SaveChanges();
+            return user1;
+        }
+
+        public string DeleteUser (int id)
+        {
+            User user1 = _context.Users.FirstOrDefault(x => x.Id == id);
+
+            if (user1 == null)
+            {
+                return "user doesn't exist ";
+            }else
+            {
+                _context.Users.Remove(user1);
+                _context.SaveChanges();
+                return "user deleted successfully";
+            }
+           
         }
 
 
