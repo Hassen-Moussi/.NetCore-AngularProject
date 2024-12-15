@@ -8,10 +8,10 @@ import { HomeComponent } from 'src/Components/home/home.component';
 
 const routes: Routes = [{
 
-  path:'',component:HomeComponent
+  path:'home',component:HomeComponent
 },
 {
-  path:'login',component:LoginComponent
+  path:'',component:LoginComponent
 },
 {
   path:'header',component:HeaderComponent

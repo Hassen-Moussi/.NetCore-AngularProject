@@ -25,11 +25,11 @@ isLoggedIn: boolean = false;
 user: any; 
 
   GoLogin(){
-    this.router.navigate(['/login']);
+    this.router.navigate(['']);
   }
 
   logout(): void {
     this.authService.logout();
-    this.router.navigate(['/']);  
+    this.router.navigate(['']);  
   }
 }

@@ -30,17 +30,19 @@ export class LoginComponent implements OnInit{
         
           this.snackBar.open('Login successful!', 'Close', {
             duration: 3000,
-            panelClass: ['snackbar-success']
+            panelClass: ['snackbar-success'],
+            horizontalPosition: 'center',  
+            verticalPosition: 'top' 
           
           });
-          this.router.navigate(['']);
+          this.router.navigate(['/home']);
         }
       },
       (error) => {
         this.snackBar.open('Login failed! Please check your credentials.', 'Close', {
           duration: 3000,
           panelClass: ['snackbar-error'],
-          horizontalPosition: 'center',  // Centers horizontally
+          horizontalPosition: 'center',  
           verticalPosition: 'top' 
         });
       }

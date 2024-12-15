@@ -177,17 +177,18 @@ body {
 	transform: scale(1.5);	
 }
 
-::ng-deep .snackbar-success {
-	background-color: #4caf50 !important; /* Green for success */
-	color: white !important;
+::ng-deep .mat-snack-bar-container {
+	&.snackbar-success {
+	  background-color: #4caf50 !important;
+	  color: white !important;
+	}
+  
+	&.snackbar-error {
+	  background-color: #f44336 !important;
+	  color: white !important;
+	}
   }
   
-  ::ng-deep .snackbar-error {
-	background-color: #f44336 !important; /* Red for error */
-	color: white !important;
-
-
-  }
   
 
 
