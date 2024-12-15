@@ -5,7 +5,7 @@
       <div class="contact_nav" *ngIf="isLoggedIn">
         <a href="">
           <i class="fa fa-user" aria-hidden="true"></i>
-          <span>Hello : {{ user?.iss || 'User' }}</span>
+          <span>Hello : {{ user?.unique_name || 'User' }}</span>
         </a>
         <a href="">
           <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -31,7 +31,7 @@
       <nav class="navbar navbar-expand-lg custom_nav-container">
         <a class="navbar-brand" aria-label="img1" href="index.html">
           <span>
-            <img src="assets/images/fevicon.png" alt="" height="40px" width="40px">
+            <img src="assets/images/fevicon.png" alt="" height="35px" width="35px">
           </span>
         </a>
 

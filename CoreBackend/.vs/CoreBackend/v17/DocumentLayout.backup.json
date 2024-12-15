@@ -1,40 +1,40 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\",
+  "WorkspaceRootPath": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\hassen\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\hassen\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\hassen\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\hassen\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\hassen\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\hassen\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\users\\hasse\\onedrive\\desktop\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\hassen\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Migrations\\20240908111614_intialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44823CAC-A6D8-484F-A8F1-41103E7E0EAC}|jwtGenerator\\jwtGenerator.csproj|c:\\users\\hasse\\onedrive\\desktop\\coreproject\\.netcore-angularproject\\corebackend\\jwtgenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{44823CAC-A6D8-484F-A8F1-41103E7E0EAC}|jwtGenerator\\jwtGenerator.csproj|c:\\hassen\\coreproject\\.netcore-angularproject\\corebackend\\jwtgenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44823CAC-A6D8-484F-A8F1-41103E7E0EAC}|jwtGenerator\\jwtGenerator.csproj|solutionrelative:jwtgenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -45,15 +45,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Program.cs",
+              "DocumentMoniker": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Program.cs",
               "RelativeDocumentMoniker": "CoreBackend\\Program.cs",
-              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Program.cs",
+              "ToolTip": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Program.cs",
               "RelativeToolTip": "CoreBackend\\Program.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAmwC0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -63,9 +63,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Models\\User.cs",
               "RelativeDocumentMoniker": "CoreBackend\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Models\\User.cs",
+              "ToolTip": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Models\\User.cs",
               "RelativeToolTip": "CoreBackend\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,23 +73,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Services\\UserService.cs",
+              "DocumentMoniker": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "CoreBackend\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Services\\UserService.cs",
+              "ToolTip": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Services\\UserService.cs",
               "RelativeToolTip": "CoreBackend\\Services\\UserService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAMwDwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAiwEkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T12:02:59.75Z"
+              "WhenOpened": "2024-11-17T12:02:59.75Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Dockerfile",
+              "DocumentMoniker": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Dockerfile",
               "RelativeDocumentMoniker": "CoreBackend\\Dockerfile",
-              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Dockerfile",
+              "ToolTip": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Dockerfile",
               "RelativeToolTip": "CoreBackend\\Dockerfile",
               "ViewState": "AgIAAA8AAAAAAAAAAAAQwBoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -97,37 +98,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "CoreBackend\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Properties\\launchSettings.json",
               "RelativeToolTip": "CoreBackend\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-16T17:16:46.169Z"
+              "WhenOpened": "2024-11-16T17:16:46.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "CoreBackend\\appsettings.json",
+              "ToolTip": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\appsettings.json",
+              "RelativeToolTip": "CoreBackend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-08T10:44:07.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\appsettings.json",
-              "RelativeDocumentMoniker": "CoreBackend\\appsettings.json",
-              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\appsettings.json",
-              "RelativeToolTip": "CoreBackend\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-08T10:44:07.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "CoreBackend\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Controllers\\UserController.cs",
               "RelativeToolTip": "CoreBackend\\Controllers\\UserController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwDEAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T10:36:44.681Z",
               "EditorCaption": ""
@@ -136,9 +139,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\jwtGenerator\\Program.cs",
+              "DocumentMoniker": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\jwtGenerator\\Program.cs",
               "RelativeDocumentMoniker": "jwtGenerator\\Program.cs",
-              "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\jwtGenerator\\Program.cs",
+              "ToolTip": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\jwtGenerator\\Program.cs",
               "RelativeToolTip": "jwtGenerator\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -149,9 +152,9 @@
               "DocumentIndex": 7,
               "Title": "20240908111614_intialmigration.cs",
               "DocumentMoniker": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Migrations\\20240908111614_intialmigration.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\CoreBackend\\CoreBackend\\Migrations\\20240908111614_intialmigration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Migrations\\20240908111614_intialmigration.cs",
               "ToolTip": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Migrations\\20240908111614_intialmigration.cs",
-              "RelativeToolTip": "..\\..\\..\\CoreBackend\\CoreBackend\\Migrations\\20240908111614_intialmigration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\hasse\\OneDrive\\Desktop\\CoreBackend\\CoreBackend\\Migrations\\20240908111614_intialmigration.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T11:16:14.817Z"
             }

@@ -47,31 +47,48 @@ namespace CoreBackend.Services
             if (user == null) return null;
 
             // Generate JWT token for the authenticated user
-            return GenerateJwtToken(user.Email);
+            return GenerateJwtToken(user);
         }
 
-        private string GenerateJwtToken(string email)
+        private string GenerateJwtToken(User user)
         {
+            // Secret key and credentials
             var key = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_configuration["Jwt:Key"]));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
+            // Add user claims for JWT payload
+            var claims = new List<Claim>
+    {
+        new Claim(ClaimTypes.Name, user.Name), // Include the username
+        new Claim(ClaimTypes.Email, user.Email),   // Include the email
+        new Claim("UserId", user.Id.ToString()),   // Include user ID
+    };
+
+            // Optionally, add roles or other custom claims if applicable
+         /*   if (user.Roles != null)
+            {
+                foreach (var role in user.Roles)
+                {
+                    claims.Add(new Claim(ClaimTypes.Role, role));
+                }
+            }*/
+
+            // Token descriptor
             var tokenDescriptor = new SecurityTokenDescriptor
             {
-                Subject = new ClaimsIdentity(new[]
-                {
-            new Claim(ClaimTypes.Email, email)
-        }),
-                Expires = DateTime.UtcNow.AddHours(1),
+                Subject = new ClaimsIdentity(claims),
+                Expires = DateTime.UtcNow.AddHours(1), // Token expiration time
                 Issuer = _configuration["Jwt:Issuer"],
                 Audience = _configuration["Jwt:Audience"],
                 SigningCredentials = creds
             };
 
+            // Generate and return the token
             var tokenHandler = new JwtSecurityTokenHandler();
             var token = tokenHandler.CreateToken(tokenDescriptor);
-
             return tokenHandler.WriteToken(token);
         }
+
 
         public User RegisterUser(User user)
         {

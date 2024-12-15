@@ -34,6 +34,9 @@ isLoggedIn: boolean = false;
       this.isLoggedIn = true;
       this.user = this.decodeToken(token); 
     }
+
+    console.log("user info = ",this.user);
+    
  
     
   }

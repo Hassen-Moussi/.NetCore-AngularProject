@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sdNgGcKNTGM=",
+  "dgSpecHash": "8dUilqPalJc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\jwtGenerator\\jwtGenerator.csproj",
+  "projectFilePath": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\jwtGenerator\\jwtGenerator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

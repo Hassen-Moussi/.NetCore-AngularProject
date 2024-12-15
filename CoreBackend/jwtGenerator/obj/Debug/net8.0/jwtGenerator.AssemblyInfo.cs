@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("jwtGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a7e291c5becf94352694d95965110998c7c3647")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70b148ec24859df5e0bb8b35741bf61702baf209")]
 [assembly: System.Reflection.AssemblyProductAttribute("jwtGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("jwtGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

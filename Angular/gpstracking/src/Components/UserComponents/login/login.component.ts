@@ -14,6 +14,7 @@ export class LoginComponent implements OnInit{
 
   Email = '';
   Password = '';
+  username = '';
 
 
   ngOnInit(): void {
@@ -39,6 +40,7 @@ export class LoginComponent implements OnInit{
           
           });
           this.router.navigate(['/home']);
+          
         }
       },
       (error) => {
@@ -50,6 +52,35 @@ export class LoginComponent implements OnInit{
         });
       }
     );
+  }
+
+  signup(){
+    this.service.CreateUser(this.username,this.Email,this.Password).subscribe (
+      (Response)=>{
+        if (Response){
+
+          this.snackBar.open('User Created successful!', 'Close', {
+            duration: 3000,
+            panelClass: ['snackbar-success'],
+            horizontalPosition: 'center',  
+            verticalPosition: 'top' 
+          
+          });
+          this.router.navigate(['']);
+          
+
+        }else {
+          console.log("user info =",this.username);
+          
+          this.snackBar.open('User Creation failed! Please check your credentials.', 'Close', {
+            duration: 3000,
+            panelClass: ['snackbar-error'],
+            horizontalPosition: 'center',  
+            verticalPosition: 'top' 
+          });
+        }
+      }
+    )
   }
 
 

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\jwtGenerator\\jwtGenerator.csproj",
+      "projectUniqueName": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\jwtGenerator\\jwtGenerator.csproj",
       "projectName": "jwtGenerator",
-      "projectPath": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\jwtGenerator\\jwtGenerator.csproj",
+      "projectPath": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\jwtGenerator\\jwtGenerator.csproj",
       "packagesPath": "C:\\Users\\hasse\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hasse\\OneDrive\\Desktop\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\jwtGenerator\\obj\\",
+      "outputPath": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\jwtGenerator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hasse\\AppData\\Roaming\\NuGet\\NuGet.Config",
