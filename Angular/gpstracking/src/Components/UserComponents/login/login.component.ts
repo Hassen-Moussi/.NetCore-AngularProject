@@ -26,6 +26,9 @@ export class LoginComponent implements OnInit{
     this.service.login(this.Email, this.Password).subscribe(
       (response) => {
         if (response && response.token) {
+
+
+          
           this.service.storeToken(response.token);
         
           this.snackBar.open('Login successful!', 'Close', {

@@ -15,10 +15,25 @@ isLoggedIn: boolean = false;
 
 
   ngOnInit(): void {
-    this.authService.getAuthStatus().subscribe(status => {
+ 
+    this.authService.getAuthStatus().subscribe((status) => {
       this.isLoggedIn = status;
+      if (this.isLoggedIn) {
+      
+        const token = this.authService.getToken();
+        if (token) {
+          this.user = this.authService.getUserData(); 
+        }
+      } else {
+        this.user = null; 
+      }
     });
-    this.user = this.authService.getUserData();
+
+    const token = localStorage.getItem('authToken') || sessionStorage.getItem('authToken');
+    if (token && !this.isLoggedIn) {
+      this.isLoggedIn = true;
+      this.user = this.decodeToken(token); 
+    }
  
     
   }
@@ -29,7 +44,17 @@ user: any;
   }
 
   logout(): void {
-    this.authService.logout();
-    this.router.navigate(['']);  
+
+    localStorage.removeItem('authToken');
+    sessionStorage.removeItem('authToken');
+    this.isLoggedIn = false;
+    this.user = null;
+    this.router.navigate(['/']);
+  }
+
+  decodeToken(token: string): any {
+
+    const payload = JSON.parse(atob(token.split('.')[1])); 
+    return payload;
   }
 }

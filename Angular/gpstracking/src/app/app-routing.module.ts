@@ -5,19 +5,24 @@ import { LoginComponent } from 'src/Components/UserComponents/login/login.compon
 import { HeaderComponent } from 'src/Components/HeaderFooter/header/header.component';
 import { FooterComponent } from 'src/Components/HeaderFooter/footer/footer.component';
 import { HomeComponent } from 'src/Components/home/home.component';
+import { AuthGuard } from 'src/Components/UserComponents/guards/auth.guard';
+import { AboutComponent } from 'src/Components/about/about.component';
 
 const routes: Routes = [{
 
   path:'home',component:HomeComponent
 },
 {
-  path:'',component:LoginComponent
+  path:'',component:LoginComponent, canActivate: [AuthGuard],
 },
 {
   path:'header',component:HeaderComponent
 },
 {
   path:'footer',component:FooterComponent
+},
+{
+  path:'about' ,component:AboutComponent
 }];
 
 @NgModule({
