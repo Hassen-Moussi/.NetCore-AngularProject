@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\hassen\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\hassen\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\hassen\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|solutionrelative:corebackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77A17437-DECA-4A06-8872-5D63A2B2C727}|CoreBackend\\CoreBackend.csproj|c:\\hassen\\coreproject\\.netcore-angularproject\\corebackend\\corebackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,7 +45,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -69,18 +69,17 @@
               "RelativeToolTip": "CoreBackend\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T17:59:33.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T17:59:33.469Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "CoreBackend\\Services\\UserService.cs",
               "ToolTip": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Services\\UserService.cs",
               "RelativeToolTip": "CoreBackend\\Services\\UserService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAD4vxAAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T12:02:59.75Z",
               "EditorCaption": ""
@@ -123,13 +122,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "CoreBackend\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Hassen\\CoreProject\\.NetCore-AngularProject\\CoreBackend\\CoreBackend\\Controllers\\UserController.cs",
               "RelativeToolTip": "CoreBackend\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAowF8AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowDsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T10:36:44.681Z",
               "EditorCaption": ""

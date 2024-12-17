@@ -10,7 +10,8 @@ import {jwtDecode} from 'jwt-decode';
 export class ServiceService {
   private baseUrl = 'https://localhost:44368/api/User';
   private authSubject = new BehaviorSubject<boolean>(this.isAuthenticated());
-  private userSubject = new BehaviorSubject<any>(this.getUserData());
+  private userSubject = new BehaviorSubject<user | null>(null); 
+  user$ = this.userSubject.asObservable(); 
 
   constructor(private http: HttpClient) {}
 
@@ -57,7 +58,7 @@ export class ServiceService {
     this.userSubject.next(null); 
   }
 
-
+/*GetUserId*/
   getUserData(): any | null {
     const token = this.getToken();
     if (token) {
@@ -91,5 +92,23 @@ export class ServiceService {
       .set('email', email);
   
     return this.http.put(`${this.baseUrl}/Update`, {}, { params });
+  }
+  GetByid(id:number) : Observable<user> {
+    return this.http.get<user>(`${this.baseUrl}/GetById/${id}`)
+  }
+  loadUserById(id: number): void {
+    this.GetByid(id).subscribe(user => {
+      this.userSubject.next(user); 
+    });
+  }
+
+
+  getCurrentUser(): any {
+    return this.userSubject.getValue(); 
+  }
+
+
+  updateUser(user: any): void {
+    this.userSubject.next(user); 
   }
 }

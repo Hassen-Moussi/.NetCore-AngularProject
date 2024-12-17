@@ -10,72 +10,113 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 })
 export class ProfileComponent implements OnInit {
   constructor(private service :ServiceService , private router :Router , private snackBar: MatSnackBar){}
+  userid:any;
   user:any;
   name :string = '';
   email:string = '';
   password: string = '';
   id:any;
   editform : boolean = false ; 
+  originalUser:any;
   ngOnInit(): void {
     this.GetData()
+    this.getuserbyid(this.userid);
+
+    this.service.user$.subscribe((fetchedUser) => {
+      this.user = fetchedUser;
+      this.originalUser = { ...fetchedUser };
+    });
+    
   }
 
   GetData() {
     const response = this.service.getUserData();
     if (response) {
-      this.user = response;
+      this.userid = response.UserId;
+   
+      
     } else {
       console.error('No user data available.');
     }
-
-    if (this.user) {
-      this.name = this.user.unique_name;
-      this.email = this.user.email;
-    }
     
+  }
+
+  getuserbyid(id :number) {
+    this.service.GetByid(id).subscribe(
+      (response)=>{
+        if (response) {
+          this.user = response;
+          console.log("user info form profile ",response);
+          
+        } else {
+          console.error('No user data available.');
+        }
+      }
+    )
   }
 
   edite(){
 
     this.editform = !this.editform ; 
+    this.getuserbyid(this.userid);
   }
 
   modifyuserdata(): void {
-    const updatedName = this.name.trim() === '' ? this.user.unique_name : this.name;
-    const updatedEmail = this.email.trim() === '' ? this.user.email : this.email;
-
-  if (
-    updatedName === this.user.unique_name &&
-    updatedEmail === this.user.email 
-  ) {
-    this.snackBar.open('No updates detected. Please make changes to update.', 'Close', {
-      duration: 3000,
-      panelClass: ['snackbar-warning'],
-      horizontalPosition: 'center',
-      verticalPosition: 'top'
-    });
-    return;
-  }
-
-    this.service.ModifyUser(this.user.UserId, updatedName, updatedEmail).subscribe({
+    const updatedName = this.user.name.trim(); // Use the user object directly
+    const updatedEmail = this.user.email.trim();
+  
+    if (
+      updatedName === this.originalUser.name &&
+      updatedEmail === this.originalUser.email 
+    ) {
+      this.snackBar.open('No updates detected. Please make changes to update.', 'Close', {
+        duration: 3000,
+        panelClass: ['snackbar-warning'],
+        horizontalPosition: 'center',
+        verticalPosition: 'top'
+      });
+      return;
+    }
+    if (updatedEmail !== this.originalUser.email) {
+      this.service.ModifyUser(this.user.id, updatedName, updatedEmail).subscribe({
+        next: (response) => {
+          this.snackBar.open('Update successful!', 'Close', {
+            duration: 3000,
+            panelClass: ['snackbar-success'],
+            horizontalPosition: 'center',  
+            verticalPosition: 'top' 
+          });
+        }
+        }),
+       
+      localStorage.removeItem('authToken');
+      sessionStorage.removeItem('authToken');
+      this.user = null;
+      this.router.navigate(['/']);
+    }
+  
+    this.service.ModifyUser(this.user.id, updatedName, updatedEmail).subscribe({
       next: (response) => {
-        this.snackBar.open('Updated successful!', 'Close', {
+        this.snackBar.open('Update successful!', 'Close', {
           duration: 3000,
           panelClass: ['snackbar-success'],
           horizontalPosition: 'center',  
           verticalPosition: 'top' 
-        
         });
-        localStorage.removeItem('authToken');
-        sessionStorage.removeItem('authToken');
-        this.user = null;
-        this.router.navigate(['/']);
+
+        this.user.name = updatedName;
+        this.user.email = updatedEmail;
+  
+        this.service.updateUser(this.user);
+
+       
       },
       error: (err) => {
         console.error('Error updating user:', err);
       }
     });
   }
+  
   
   
   

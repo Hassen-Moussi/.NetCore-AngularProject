@@ -103,6 +103,11 @@ namespace CoreBackend.Controllers
         {
             return Ok(_userService.DeleteUser(id));
         }
+        [HttpGet("GetById/{id}")]
+        public User GetById( int id)
+        {
+            return _userService.GetUserById(id);
+        }
     }
 }
 

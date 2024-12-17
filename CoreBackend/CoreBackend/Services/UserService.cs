@@ -16,6 +16,7 @@ namespace CoreBackend.Services
         User RegisterUser(User newUser);
         User ModifyUser (int id , string name , string email );
         string DeleteUser(int id);
+        User GetUserById(int id);
     }
     public class UserService : IUserService
     {
@@ -41,6 +42,12 @@ namespace CoreBackend.Services
             }
             return null; 
         }
+        public User GetUserById( int id )
+        {
+            var user = _context.Users.FirstOrDefault(x => x.Id == id);
+           
+            return user;
+        }
 
         public string Authenticate(string email, string password)
         {
@@ -61,7 +68,7 @@ namespace CoreBackend.Services
             var claims = new List<Claim>
     {
         new Claim(ClaimTypes.Name, user.Name), // Include the username
-        new Claim(ClaimTypes.Email, user.Email),   // Include the email
+        new Claim(ClaimTypes.Email, user.Email),// Include the email
         new Claim("UserId", user.Id.ToString()),   // Include user ID
     };
 

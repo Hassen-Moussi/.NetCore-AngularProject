@@ -12,6 +12,7 @@ export class HeaderComponent implements OnInit{
 constructor(private router : Router , private authService:ServiceService) {}
 
 isLoggedIn: boolean = false;
+userdata:any;
 
 
   ngOnInit(): void {
@@ -35,8 +36,18 @@ isLoggedIn: boolean = false;
       this.user = this.decodeToken(token); 
     }
 
-    console.log("user info = ",this.user);
     
+    if (this.user && this.user.UserId) {
+      console.log('UserId found:', this.user.UserId);
+      this.authService.loadUserById(this.user.UserId);
+  
+      this.authService.user$.subscribe(updatedUser => {
+
+        this.userdata = updatedUser;
+      });
+    } else {
+      console.error('UserId is missing or undefined'); 
+    }
  
     
   }
@@ -59,5 +70,17 @@ user: any;
 
     const payload = JSON.parse(atob(token.split('.')[1])); 
     return payload;
+  }
+  GetUserData (id:number) {
+
+    this.authService.GetByid(id).subscribe(
+      (response)=>{
+        this.userdata=response;
+        console.log("user data =",response);
+        
+        return response;
+      }
+    )
+
   }
 }

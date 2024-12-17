@@ -5,11 +5,11 @@
       <div class="contact_nav" *ngIf="isLoggedIn">
         <a href="/profile">
           <i class="fa fa-user" aria-hidden="true"></i>
-          <span>Hello : {{ user?.unique_name || 'User' }}</span>
+          <span>Hello : {{ userdata?.name || 'User' }}</span>
         </a>
         <a href="">
           <i class="fa fa-envelope" aria-hidden="true"></i>
-          <span>Email : {{ user?.email || 'N/A' }}</span>
+          <span>Email : {{ userdata?.email || 'N/A' }}</span>
         </a>
         <a href="">
           <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -52,7 +52,7 @@
               <a class="nav-link" href="/about">About</a>
             </li>
             <li class="nav-item" *ngIf="isLoggedIn">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+              <a class="nav-link" href="/contact">Contact Us</a>
             </li>
 
             <!-- Show login if user is not logged in -->
