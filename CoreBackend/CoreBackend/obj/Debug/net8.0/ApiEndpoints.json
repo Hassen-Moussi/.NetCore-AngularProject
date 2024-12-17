@@ -76,9 +76,19 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userInput",
-        "Type": "CoreBackend.Models.User",
-        "IsRequired": true
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

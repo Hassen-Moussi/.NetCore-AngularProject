@@ -1,4 +1,4 @@
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { user } from '../../../Models/user';
 import { BehaviorSubject, Observable, tap } from 'rxjs';
@@ -83,5 +83,13 @@ export class ServiceService {
   CreateUser(name:string,email:string,password:string): Observable<any> {
     const body ={name,email,password};
     return this.http.post(`${this.baseUrl}/signup`,body);
+  }
+  ModifyUser(id: number, name: string, email: string): Observable<any> {
+    const params = new HttpParams()
+      .set('id', id)
+      .set('name', name)
+      .set('email', email);
+  
+    return this.http.put(`${this.baseUrl}/Update`, {}, { params });
   }
 }

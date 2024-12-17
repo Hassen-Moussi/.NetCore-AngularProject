@@ -90,12 +90,12 @@ namespace CoreBackend.Controllers
 
 
         [HttpPut("Update")]
-        public IActionResult Update([FromBody] User userInput)
+        public IActionResult Update(int id , string name, string email)
         {
-            if (userInput == null)
+            if (id == null)
                 return BadRequest("User doesn't exist");
 
-            return Ok(_userService.ModifyUser(userInput));
+            return Ok(_userService.ModifyUser(id, name, email));
         }
 
         [HttpDelete("Delete")]

@@ -1,5 +1,6 @@
 ﻿using CoreBackend.DataBase;
 using CoreBackend.Models;
+using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using Microsoft.IdentityModel.Tokens;
 using System.Globalization;
 using System.IdentityModel.Tokens.Jwt;
@@ -13,7 +14,7 @@ namespace CoreBackend.Services
         List<User> GetUsers();
         string Authenticate(string email, string password);
         User RegisterUser(User newUser);
-        User ModifyUser (User user);
+        User ModifyUser (int id , string name , string email );
         string DeleteUser(int id);
     }
     public class UserService : IUserService
@@ -99,13 +100,12 @@ namespace CoreBackend.Services
          
         }
 
-        public User ModifyUser(User user )
+        public User ModifyUser(int id , string name , string email )
         {
-            User user1 = _context.Users.FirstOrDefault(x => x.Id == user.Id);
+            User user1 = _context.Users.FirstOrDefault(x => x.Id == id);
             {
-                user1.Name = user.Name;
-                user1.Email = user.Email;
-                user1.Password = user.Password;
+                user1.Name = name;
+                user1.Email = email;
             }
 
             _context.SaveChanges();

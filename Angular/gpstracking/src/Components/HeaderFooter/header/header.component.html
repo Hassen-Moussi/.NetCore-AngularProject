@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <!-- Show user info if logged in -->
       <div class="contact_nav" *ngIf="isLoggedIn">
-        <a href="">
+        <a href="/profile">
           <i class="fa fa-user" aria-hidden="true"></i>
           <span>Hello : {{ user?.unique_name || 'User' }}</span>
         </a>
