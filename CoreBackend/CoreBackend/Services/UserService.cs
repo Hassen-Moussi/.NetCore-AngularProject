@@ -23,6 +23,7 @@ namespace CoreBackend.Services
 
         private readonly AppDbContext _context;
         private readonly IConfiguration _configuration;
+        private readonly Dictionary<string, string> _verificationCodes = new();
 
         public UserService(AppDbContext context, IConfiguration configuration)
         {
@@ -91,7 +92,7 @@ namespace CoreBackend.Services
                 SigningCredentials = creds
             };
 
-            // Generate and return the token
+     
             var tokenHandler = new JwtSecurityTokenHandler();
             var token = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(token);
@@ -134,6 +135,9 @@ namespace CoreBackend.Services
             }
            
         }
+
+
+        
 
 
     }

@@ -79,6 +79,22 @@
   },
   {
     "ContainingType": "CoreBackend.Controllers.UserController",
+    "Method": "RequestVerificationCode",
+    "RelativePath": "api/User/request-verification-code",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoreBackend.Controllers.UserController",
     "Method": "Signup",
     "RelativePath": "api/User/signup",
     "HttpMethod": "POST",
@@ -131,6 +147,32 @@
         "Name": "token",
         "Type": "System.String",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoreBackend.Controllers.UserController",
+    "Method": "VerifyAndUpdateEmail",
+    "RelativePath": "api/User/verify-and-update-email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "currentEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "newEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

@@ -1,4 +1,5 @@
 using CoreBackend.DataBase;
+using CoreBackend.Models;
 using CoreBackend.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -28,7 +29,11 @@ builder.Services.AddCors(options =>
 
 // Other services (like MVC or Controllers)
 builder.Services.AddControllers();
+builder.Services.Configure<SmtpSettings>(
+    builder.Configuration.GetSection("SmtpSettings"));
 
+builder.Services.AddTransient<IEmailService, EmailService>();
+builder.Services.AddSingleton<IVerificationService, VerificationService>();
 
 
 
@@ -100,6 +105,12 @@ builder.Services.AddAuthentication(options =>
 });
 
 var app = builder.Build();
+
+app.UseRouting();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

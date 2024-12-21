@@ -20,10 +20,14 @@ namespace CoreBackend.Controllers
 
         private readonly IConfiguration _configuration;
         private readonly IUserService _userService;
-        public UserController(IUserService userService , IConfiguration configuration)
+        private readonly IVerificationService _verificationService;
+        private readonly IEmailService _emailService;
+        public UserController(IUserService userService , IConfiguration configuration , IVerificationService verificationService , IEmailService emailService)
         {
             _userService = userService;
             _configuration = configuration;
+            _verificationService = verificationService;
+            _emailService = emailService;
         }
       
 
@@ -108,6 +112,47 @@ namespace CoreBackend.Controllers
         {
             return _userService.GetUserById(id);
         }
+
+        [HttpPost("request-verification-code")]
+        public async Task<IActionResult> RequestVerificationCode(string email)
+        {
+            if (string.IsNullOrEmpty(email))
+            {
+                return BadRequest("Email is required.");
+            }
+
+            // Generate verification code
+            var verificationCode = _verificationService.GenerateVerificationCode(email);
+
+            // Send the code via email
+            var subject = "Email Update Verification Code";
+            var message = $"Your verification code is: {verificationCode}";
+            await _emailService.SendEmailAsync(email, subject, message);
+
+            return Ok("Verification code sent.");
+        }
+
+        [HttpPost("verify-and-update-email")]
+        public IActionResult VerifyAndUpdateEmail(string currentEmail, string newEmail, string code)
+        {
+            if (string.IsNullOrEmpty(currentEmail) || string.IsNullOrEmpty(newEmail) || string.IsNullOrEmpty(code))
+            {
+                return BadRequest("All fields are required.");
+            }
+
+            // Use currentEmail to validate the code
+            if (_verificationService.ValidateVerificationCode(currentEmail, code))
+            {
+                // Update the email in the database (example code, replace with actual logic)
+                // userRepository.UpdateEmail(currentEmail, newEmail);
+
+                _verificationService.RemoveVerificationCode(currentEmail);  // Remove code after successful validation
+                return Ok("Email updated successfully.");
+            }
+
+            return BadRequest("Invalid verification code.");
+        }
+
     }
 }
 
