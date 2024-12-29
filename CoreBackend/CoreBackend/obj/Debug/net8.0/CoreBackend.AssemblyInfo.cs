@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoreBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1e4aea93355247a69f2780c8a72cdf71069ace4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2248542f893efac1239303c14c4e11610345d76")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoreBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoreBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

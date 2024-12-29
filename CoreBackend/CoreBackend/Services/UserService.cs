@@ -14,9 +14,10 @@ namespace CoreBackend.Services
         List<User> GetUsers();
         string Authenticate(string email, string password);
         User RegisterUser(User newUser);
-        User ModifyUser (int id , string name , string email );
+        User ModifyUser (int id , string name );
         string DeleteUser(int id);
         User GetUserById(int id);
+        User ModifyEmail(string email,string newEmail);
     }
     public class UserService : IUserService
     {
@@ -108,16 +109,26 @@ namespace CoreBackend.Services
          
         }
 
-        public User ModifyUser(int id , string name , string email )
+        public User ModifyUser(int id , string name )
         {
             User user1 = _context.Users.FirstOrDefault(x => x.Id == id);
             {
                 user1.Name = name;
-                user1.Email = email;
+               
             }
 
             _context.SaveChanges();
             return user1;
+        }
+
+        public User ModifyEmail(string email , string newEmail)
+        {
+            User user = _context.Users.FirstOrDefault(x => x.Email == email);
+            {
+                user.Email = newEmail; 
+            }
+            _context.SaveChanges();
+            return user; 
         }
 
         public string DeleteUser (int id)
@@ -135,10 +146,6 @@ namespace CoreBackend.Services
             }
            
         }
-
-
-        
-
 
     }
 }

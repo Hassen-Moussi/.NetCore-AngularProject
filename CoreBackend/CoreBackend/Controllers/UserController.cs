@@ -94,12 +94,12 @@ namespace CoreBackend.Controllers
 
 
         [HttpPut("Update")]
-        public IActionResult Update(int id , string name, string email)
+        public IActionResult Update(int id , string name)
         {
             if (id == null)
                 return BadRequest("User doesn't exist");
 
-            return Ok(_userService.ModifyUser(id, name, email));
+            return Ok(_userService.ModifyUser(id, name));
         }
 
         [HttpDelete("Delete")]
@@ -143,8 +143,7 @@ namespace CoreBackend.Controllers
             // Use currentEmail to validate the code
             if (_verificationService.ValidateVerificationCode(currentEmail, code))
             {
-                // Update the email in the database (example code, replace with actual logic)
-                // userRepository.UpdateEmail(currentEmail, newEmail);
+                _userService.ModifyEmail(currentEmail,newEmail);
 
                 _verificationService.RemoveVerificationCode(currentEmail);  // Remove code after successful validation
                 return Ok("Email updated successfully.");
